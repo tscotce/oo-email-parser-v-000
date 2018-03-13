@@ -10,7 +10,7 @@ class EmailParser
       @list = list
     end
     
-    def parse
+    def self.parse
       @@emails << self.split(",")
     end
   
