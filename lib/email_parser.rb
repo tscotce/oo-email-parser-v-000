@@ -11,7 +11,7 @@ class EmailParser
     end
     
     def parse
-     parsed_list = @list.split(/,\ /).join(", ")
+     parsed_list = @list.split(/,\ /)
      #@@emails << parsed_list
     end
   
