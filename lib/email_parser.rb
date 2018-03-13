@@ -11,7 +11,7 @@ class EmailParser
     end
     
     def parse
-      @@emails << @list.split(", ").to_s
+      @@emails << @list.split(", ")
     end
   
   
