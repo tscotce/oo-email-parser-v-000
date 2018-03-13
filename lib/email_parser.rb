@@ -12,7 +12,6 @@ class EmailParser
     
     def parse
      parsed_list = @list.split(/, | /).uniq
-     #@@emails << parsed_list
     end
   
   
