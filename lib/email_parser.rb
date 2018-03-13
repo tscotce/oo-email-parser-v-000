@@ -12,7 +12,7 @@ class EmailParser
     
     def parse
      parsed_list = @list.split(", ").flatten
-     @@emails << parsed_list
+     #@@emails << parsed_list
     end
   
   
