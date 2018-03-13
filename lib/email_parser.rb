@@ -12,7 +12,6 @@ class EmailParser
     
     def parse(list)
       @@emails << list.split(",")
-      end
     end
   
   
